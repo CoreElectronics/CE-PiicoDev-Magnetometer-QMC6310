@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "PiicoDev Module Magnetic Sensor"
+Date "2021-08-09"
+Rev "00"
 Comp "Core Electronics"
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment1 "Designed at Core Electronics by Peter Johnston"
+Comment2 "PiicoDev and the PiicoDev logo are trademarks of Core Electronics Pty Ltd."
+Comment3 "License: CCASAv4.0 http://creativecommons.org/licenses/by-sa/4.0"
 Comment4 ""
 $EndDescr
 $Comp
@@ -622,8 +622,6 @@ Wire Wire Line
 	8000 3750 8000 3850
 Wire Wire Line
 	8000 4150 8000 4250
-Text Notes 6400 2000 0    50   ~ 0
-4.3.3 External Capacitors\nThe external capacitors C1 should be ceramic type with low ESR characteristics. The exact ESR value is not\ncritical, but values less than 200 milli-ohms are recommended. Reservoir capacitor C1 is nominally 4.7 µF in\ncapacitance. Low ESR characteristics may not be in many small SMT ceramic capacitors (0402), so be prepared\nto up-size the capacitors (0201) to gain low ESR characteristics.
 $Comp
 L CoreElectronics_Components:QMC6310 U1
 U 1 1 6109F6C0
