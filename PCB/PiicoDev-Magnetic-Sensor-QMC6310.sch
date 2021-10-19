@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PiicoDev Module Magnetic Sensor"
-Date "2021-08-09"
-Rev "00"
+Date "2021-10-19"
+Rev "10"
 Comp "Core Electronics"
 Comment1 "Designed at Core Electronics by Peter Johnston"
 Comment2 "PiicoDev and the PiicoDev logo are trademarks of Core Electronics Pty Ltd."
@@ -654,4 +654,43 @@ Wire Wire Line
 Wire Wire Line
 	6100 3550 6450 3550
 Connection ~ 6450 3550
+$Comp
+L CoreElectronics_Artwork:Label_PCB_Art G4
+U 1 1 616E1D38
+P 4500 7100
+F 0 "G4" H 4628 7146 50  0000 L CNN
+F 1 "Label_PCB_Art" H 4628 7055 50  0000 L CNN
+F 2 "CoreElectronics_Artwork:Axes_and_polarity_X" H 4500 7100 50  0001 C CNN
+F 3 "" H 4500 7100 50  0001 C CNN
+	1    4500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoreElectronics_Artwork:Label_PCB_Art G6
+U 1 1 616EF22A
+P 4500 7600
+F 0 "G6" H 4628 7646 50  0000 L CNN
+F 1 "Label_PCB_Art" H 4628 7555 50  0000 L CNN
+F 2 "CoreElectronics_Artwork:Axes_and_polarity_Z" H 4500 7600 50  0001 C CNN
+F 3 "" H 4500 7600 50  0001 C CNN
+	1    4500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CoreElectronics_Artwork:Label_PCB_Art G5
+U 1 1 616F08A2
+P 4500 7350
+F 0 "G5" H 4628 7396 50  0000 L CNN
+F 1 "Label_PCB_Art" H 4628 7305 50  0000 L CNN
+F 2 "CoreElectronics_Artwork:Axes_and_polarity_Y" H 4500 7350 50  0001 C CNN
+F 3 "" H 4500 7350 50  0001 C CNN
+	1    4500 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 7150 0    50   ~ 0
+X
+Text Notes 4450 7400 0    50   ~ 0
+Y
+Text Notes 4450 7650 0    50   ~ 0
+Z
 $EndSCHEMATC
