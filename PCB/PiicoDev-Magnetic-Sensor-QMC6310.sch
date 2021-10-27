@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PiicoDev Module Magnetic Sensor"
-Date "2021-10-19"
+Date "2021-10-25"
 Rev "10"
 Comp "Core Electronics"
 Comment1 "Designed at Core Electronics by Peter Johnston"
@@ -489,7 +489,7 @@ L Device:R R1
 U 1 1 60A1F61C
 P 1450 3950
 F 0 "R1" H 1520 3996 50  0000 L CNN
-F 1 "4.7k" H 1520 3905 50  0000 L CNN
+F 1 "4k7" H 1520 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1380 3950 50  0001 C CNN
 F 3 "~" H 1450 3950 50  0001 C CNN
 	1    1450 3950
@@ -553,7 +553,7 @@ F 3 "" H 7000 3600 50  0001 C CNN
 	1    7000 3600
 	1    0    0    -1  
 $EndComp
-Text Label 6450 2900 0    50   ~ 0
+Text Label 6000 2900 0    50   ~ 0
 SDA
 Text Label 6450 2800 0    50   ~ 0
 SCL
@@ -636,23 +636,15 @@ $EndComp
 $Comp
 L Device:C C3
 U 1 1 610B92AA
-P 6100 3350
-F 0 "C3" H 6215 3396 50  0000 L CNN
-F 1 "2.2" H 6215 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6138 3200 50  0001 C CNN
-F 3 "~" H 6100 3350 50  0001 C CNN
-	1    6100 3350
+P 6050 3350
+F 0 "C3" H 6165 3396 50  0000 L CNN
+F 1 "2.2u" H 6165 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6088 3200 50  0001 C CNN
+F 3 "~" H 6050 3350 50  0001 C CNN
+	1    6050 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 3150 6100 3150
-Wire Wire Line
-	6100 3150 6100 3200
 Connection ~ 6450 3150
-Wire Wire Line
-	6100 3500 6100 3550
-Wire Wire Line
-	6100 3550 6450 3550
 Connection ~ 6450 3550
 $Comp
 L CoreElectronics_Artwork:Label_PCB_Art G4
@@ -693,4 +685,25 @@ Text Notes 4450 7400 0    50   ~ 0
 Y
 Text Notes 4450 7650 0    50   ~ 0
 Z
+$Comp
+L Device:R R4
+U 1 1 61760010
+P 6300 2900
+F 0 "R4" V 6093 2900 50  0000 C CNN
+F 1 "120R" V 6184 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6230 2900 50  0001 C CNN
+F 3 "~" H 6300 2900 50  0001 C CNN
+	1    6300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 2900 6000 2900
+Wire Wire Line
+	6050 3200 6050 3150
+Wire Wire Line
+	6050 3150 6450 3150
+Wire Wire Line
+	6050 3500 6050 3550
+Wire Wire Line
+	6050 3550 6450 3550
 $EndSCHEMATC
