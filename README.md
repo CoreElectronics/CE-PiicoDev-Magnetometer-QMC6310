@@ -1,29 +1,25 @@
-<!-- TODO How to use this template
-Follow these commented instructions to build the repo.
-Delete the instructions as you go, to keep for a cleaner final file.
- -->
+# PiicoDev® Magnetometer QMC6310
 
-<!-- TODO update title to be descriptive. Eg.
-PiicoDev® [Description] [Part#]
-PiicoDev® Precision Temperature Sensor TMP117 -->
-# PiicoDev® Template
+![](https://core-electronics.com.au/media/catalog/product/p/i/piicodev-magnetometer-qmc6310.jpg)
 
-<!-- TODO update link URL with CE SKU -->
-<!-- TODO update link title -->
-<!-- TODO put image in Documents directory. Piicodev image 1500x1000 resize to 30% -> 450x300 -->
-![](Documents/showcase-render.png)
+This is the repo for the Core Electronics [PiicoDev Magnetometer QMC6310](https://core-electronics.com.au/catalog/product/view/sku/CE07937).
 
-This is the repo for the Core Electronics [PiicoDev XXXXXX](https://core-electronics.com.au/catalog/product/view/sku/XXXXXX).
+The PiicoDev® Magnetometer measures invisible magnetic fields. It's sensitive enough to use as a compass and wide-range enough for detecting magnets - which have a much stronger field. The on-board QMC6310 can measure 16-bits in ranges from 200μT to 3000μT in all 3 axes. By using PiicoDev adapters and cables, you can connect to this sensor without soldering - or use the standard breakout header if you prefer breadboard prototyping. Whichever you prefer, the PiicoDev guides will guide you through exciting experiments like measuring the Earth's magnetic field to find a heading and detecting if a magnet is nearby.
 
-<!-- TODO populate below here from the tutorial -->
+**Features**
+
+- Small size, high accuracy
+- Measures magnetic fields in 3-axes
+- Sensitive enough to use like a compass, broad range enough to work with nearby magnets
+- Great guides to get you started
+- PiicoDev connector, compatible with Qwiic and STEMMA QT (3.3V only)
+- 2.54mm breakout for breadboarding/prototyping
+- Manufactured and supported in Australia by Core Electronics
 
 ## License
 This project is open source - please review the LICENSE.md file for further licensing information.
 
 If you have any technical questions, or concerns about licensing, please contact technical support on the [Core Electronics forums](https://forum.core-electronics.com.au/).
 
-## Attribution
-<!-- TODO Confirm attribution eg
-The hardware design of this module is influenced by the design from [Sparkfun](https://github.com/sparkfun/Qwiic_Capacitive_Touch_Slider_CAP1203).  -->
 
 *\"PiicoDev\" and the PiicoDev logo are trademarks of Core Electronics Pty Ltd.*
