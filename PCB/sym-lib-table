@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "PiicoDev-Magnetic-Sensor-QMC6310-rescue")(type "Legacy")(uri "${KIPRJMOD}/PiicoDev-Magnetic-Sensor-QMC6310-rescue.lib")(options "")(descr ""))
+)
